@@ -124,6 +124,10 @@ $(document).ready(function() {
     } else if (webDev === "yes" && hardwareDev === "yes" && dataSci === "no" && apple === "no" && dif === "yes") {
       alert("Start with Javascript, move to C# then Ruby and Python. You got this!");
 
+      //  n/y/n/y/n
+    } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "no" && apple === "yes" && dif === "no") {
+      alert("It won't be easy, but you'll need C# if you want to get into hardware development, but that'll give you a good understanding for Swift (Apple's language). Sorry kiddo.");
+
     } else {
         alert("Alright, that's cool I guess. You don't have to get into coding. Maybe learn French or something?");
       }
