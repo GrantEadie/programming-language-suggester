@@ -19,6 +19,7 @@ $(document).ready(function() {
       // y/y/y/y/y
     if (webDev === "yes" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "yes") {
       alert("Learn C#, it'll be worth it in the long run. You'll pretty much be able to learn everything after that.");
+      $(".match").show();
       
       // y/y/y/y/n
     } else if (webDev === "yes" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "no") {

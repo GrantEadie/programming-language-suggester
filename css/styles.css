@@ -1,4 +1,4 @@
-.barney, .edward, .karen, .batman, .skeleton, .matchTitle {
+.match {
   display: none;
 }
 
@@ -24,12 +24,7 @@
   font-family: 'Lato', sans-serif;
   font-weight: bolder;
 }
-#match {
-  padding: 10px;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-weight: bolder;
-}
+
 .matchTitle { 
   padding: 10px;
   text-align: center;  
