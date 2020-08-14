@@ -11,7 +11,7 @@
 <body>
   <div class="container" style="margin-bottom: 40px;">
     <div class="jumbotron mainHeader">
-      <h1>Code Survey</h1>
+      <h1 style="font-weight: 600;">Code Survey</h1>
       <h3>Find out your coding future with this short survey.</h3>
     </div>    
     <form id="coding">
@@ -57,20 +57,20 @@
       <div class="questions">
         <label>Are you willing to learn a <strong>difficult</strong> but versitile language?</label>
         <select class="form-control" id="dif">
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
+          <optgroup>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </optgroup>
         </select>
       </div>
-      <button type="submit" class="btn btn-outline-info btn-block" style="margin-top: 30px;">Submit</button>
-
-      <hr>
+      <button type="submit" class="btn btn-info btn-block btn-sm" style="margin-top: 30px;">Submit</button>
 
       <!-- separate body for answer -->
       <div class="match">
         <h1 class="matchTitle"></h1>
       </div>
 
-
+      <hr class="lineStyle">
 
     </form>
   </div>

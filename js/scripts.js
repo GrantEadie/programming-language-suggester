@@ -19,7 +19,7 @@ $(document).ready(function() {
       // y/y/y/y/y
     if (webDev === "yes" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "yes") {
       $(".matchTitle").text("Learn C#, it'll be worth it in the long run. You'll pretty much be able to learn everything after that.");
-      $(".match").show();
+      $(".match").fadeToggle(3000);
       
       // y/y/y/y/n
     } else if (webDev === "yes" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "no") {
@@ -159,6 +159,5 @@ $(document).ready(function() {
     } else {
         alert("Alright, that's cool I guess. You don't have to get into coding. Maybe learn French or something?");
       }
-
   });
 });
