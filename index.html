@@ -14,83 +14,74 @@
       <h1 style="font-weight: 600;">Code Survey</h1>
       <h3>Find out your coding future with this short survey.</h3>
     </div>    
-    <form id="coding">
+    <form id="coding" style="margin-bottom: 100px">
       <hr>
-    
 
-      <div class="row">
-
-        <div class="form-group col card" style="text-align: center;">
-          <div class="card-body">
-            <label for="userName">Input your <strong>name </strong>here:</label>
-            <input id="userName" class="form-control" type="text">
-          </div>
-        </div>
-
-        <!-- prompts the user to answer yes or no for WEB dev. -->
-        <div class="questions col card">
-          <div class="card-body">
-            <label>Are you planning on working in <strong>web development?</strong></label>
-            <select class="form-control" id="webDev">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-        </div>
-
-        <!-- prompts the user to answer yes or no for HARDWARE dev. -->
-        <div class="questions col">
-          <label>Do you see yourself designing applications for <strong>hardware?</strong></label>
-          <select class="form-control" id="hardwareDev">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
+      <div class="form-group" style="text-align: center;">
+        <label for="userName">Input your <strong>name </strong>here:</label>
+        <input id="userName" class="form-control" type="text">
       </div>
 
-        <!-- prompts the user to answer yes or no for DATA ANALYSIS. -->
-        <div class="questions col">
-          <label>Will you be working with <strong>data</strong> frequently?</label>
-          <select class="form-control" id="dataSci">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
-        </div>
-        
-        <!-- prompts the user to answer yes or no for APPLE. -->
-        <div class="questions col">
-          <label>Is your dream to make apps for <strong>iOS or macOS</strong></label>
-          <select class="form-control" id="apple">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
-        </div>
+      <!-- prompts the user to answer yes or no for WEB dev. -->
+      <div class="questions">
+        <label>Are you planning on working in <strong>web development?</strong></label>
+        <select class="form-control" id="webDev">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
 
-        <!-- prompts the user to answer yes or no for DIFFICULTY. -->
-        <div class="questions col">
-          <label>Are you willing to learn a <strong>difficult</strong> but versitile language?</label>
-          <select class="form-control" id="dif">
-            <optgroup>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-          </optgroup>
-          </select>
-        </div>
+      <!-- prompts the user to answer yes or no for HARDWARE dev. -->
+      <div class="questions">
+        <label>Do you see yourself designing applications for <strong>hardware?</strong></label>
+        <select class="form-control" id="hardwareDev">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+     </div>
+
+      <!-- prompts the user to answer yes or no for DATA ANALYSIS. -->
+      <div class="questions">
+        <label>Will you be working with <strong>data</strong> frequently?</label>
+        <select class="form-control" id="dataSci">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      
+      <!-- prompts the user to answer yes or no for APPLE. -->
+      <div class="questions">
+        <label>Is your dream to make apps for <strong>iOS or macOS</strong></label>
+        <select class="form-control" id="apple">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <!-- prompts the user to answer yes or no for DIFFICULTY. -->
+      <div class="questions">
+        <label>Are you willing to learn a <strong>difficult</strong> but versitile language?</label>
+        <select class="form-control" id="dif">
+          <optgroup>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </optgroup>
+        </select>
       </div>
       <button type="submit" class="btn btn-info btn-block btn-sm" style="margin-top: 30px;">Submit</button>
 
       <!-- separate body for answer -->
 
       <div class="match">
-        <div class="userName">
-          <h1>Hello <span class="inputName"></span></h1>
-        </div>
         <hr class="lineStyle">
+        <div class="userName" style="font-family:'Lato', sans-serif;">
+          <h1>Hello <span class="inputName"></span>,</h1>
+        </div>
+
         <h2 class="matchTitle"></h1>
+          <p style="font-family: 'Lato', sans-serif; text-align: center;">Best of luck!</p>
         <hr class="lineStyle">
       </div>
-
-
-
     </form>
   </div>
 </body>
