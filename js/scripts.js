@@ -14,9 +14,9 @@ $(document).ready(function() {
     const dif = $("#dif").val();
 
     if (true) {
-      $(".match").fadeIn(2000);
+      $(".match").fadeIn(5000);
       $(".inputName").text(userName);
-      $(".userName").show();
+      $(".userName").fadeIn(2000);
 
       // y/y/y/y/y
     if (webDev === "yes" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "yes") {

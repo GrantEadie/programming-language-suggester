@@ -28,5 +28,12 @@
 }
 
 hr.lineStyle {
-  border-top: 1px solid black
+  border-top: 1px solid black;
 }
+
+.buttonColor {
+  border-color: #e0ece4;
+  background-color: #e0ece4;
+  color: black;
+}
+
