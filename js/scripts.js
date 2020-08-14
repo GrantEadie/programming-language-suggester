@@ -14,9 +14,11 @@ $(document).ready(function() {
 
     if (true) {
       $(".match").fadeIn(5000);
-      $("#toolBar").delay(800).fadeIn(5000);
+      $("#toolBar").fadeIn(7000);
       $(".inputName").text(userName);
       $(".userName").fadeIn(2000);
+      window.scroll(0, 700)
+
 
       // y/y/y/y/y
     if (webDev === "yes" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "yes") {
