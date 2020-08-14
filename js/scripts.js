@@ -13,11 +13,11 @@ $(document).ready(function() {
     const dif = $("#dif").val();
 
     if (true) {
-      $(".match").fadeIn(5000);
-      $("#toolBar").fadeIn(7000);
+      $(".match").fadeIn(1000);
+      $("#toolBar").fadeIn(3000);
       $(".inputName").text(userName);
-      $(".userName").fadeIn(2000);
-      window.scroll(0, 700)
+      $(".userName").fadeIn(700);
+      window.scroll(0, 800)
 
 
       // y/y/y/y/y
