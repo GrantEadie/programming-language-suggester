@@ -15,42 +15,53 @@
       <h3>Find out your coding future with this short survey.</h3>
     </div>    
     <form id="coding">
+      <hr>
 
       <!-- prompts the user to answer yes or no for WEB dev. -->
-      <label>Are you planning on working in web development?</label>
-      <select class="form-control" id="webDev">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <div class="questions">
+        <label>Are you planning on working in <strong>web development?</strong></label>
+        <select class="form-control" id="webDev">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
 
       <!-- prompts the user to answer yes or no for HARDWARE dev. -->
-      <label>Do you see yourself designing applications for hardware?</label>
-      <select class="form-control" id="hardwareDev">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <div class="questions">
+        <label>Do you see yourself designing applications for <strong>hardware?</strong></label>
+        <select class="form-control" id="hardwareDev">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+     </div>
 
       <!-- prompts the user to answer yes or no for DATA ANALYSIS. -->
-      <label>Will you be working with data frequently?</label>
-      <select class="form-control" id="dataSci">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <div class="questions">
+        <label>Will you be working with data frequently?</label>
+        <select class="form-control" id="dataSci">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
       
       <!-- prompts the user to answer yes or no for APPLE. -->
-      <label>Is your dream to make apps for iOS or macOS?</label>
-      <select class="form-control" id="apple">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <div class="questions">
+        <label>Is your dream to make apps for iOS or macOS?</label>
+        <select class="form-control" id="apple">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
 
       <!-- prompts the user to answer yes or no for DIFFICULTY. -->
-      <label>Are you willing to learn a difficult but versitile language?</label>
-      <select class="form-control" id="dif">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
-      <button type="submit" class="btn btn-primary" style="margin-top: 30px;">Submit</button>
+      <div class="questions">
+        <label>Are you willing to learn a difficult but versitile language?</label>
+        <select class="form-control" id="dif">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-outline-info btn-block" style="margin-top: 30px;">Submit</button>
 
       <!-- separate body for answer -->
       <div class="card">

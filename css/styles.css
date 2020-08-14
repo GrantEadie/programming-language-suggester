@@ -1,32 +1,23 @@
 .match {
   display: none;
+  margin-top: 3rem;
 }
 
+.questions {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 .mainHeader{
   text-align: center;
   padding: 30px;
   font-family: 'Lato', sans-serif;
 }
-#ageBox {
-  padding: 10px;
-  text-align: center;  
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-}
-#colorBox {
-  padding: 10px;
-  text-align: center;  
-}
-#wyrBox {
-  padding: 10px;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-weight: bolder;
-}
 
 .matchTitle { 
   padding: 10px;
+  font-weight: 600;
   text-align: center;  
   font-family: 'Lato', sans-serif;
 }
