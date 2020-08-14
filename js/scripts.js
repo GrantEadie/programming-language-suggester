@@ -132,6 +132,14 @@ $(document).ready(function() {
     } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "no" && apple === "yes" && dif === "no") {
       $(".matchTitle").text("It won't be easy, but you'll need C# if you want to get into hardware development, but that'll give you a good understanding for Swift (Apple's language). Sorry kiddo.");
 
+      //  y/y/n/y/n
+    } else if (webDev === "yes" && hardwareDev === "yes" && dataSci === "no" && apple === "yes" && dif === "no") {
+      $(".matchTitle").text("Start with Javascript and Ruby, they're easy. Eventually you'll need Swift for Apple.");
+
+      //  n/n/y/n/y
+    } else if (webDev === "no" && hardwareDev === "no" && dataSci === "yes" && apple === "no" && dif === "yes") {
+      $(".matchTitle").text("Great, start with C# and move to Python!");
+
     } else {
       $(".matchTitle").text("Alright, that's cool I guess. You don't have to get into coding. Maybe learn French or something?");
       }
