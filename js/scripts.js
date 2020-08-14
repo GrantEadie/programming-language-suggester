@@ -17,22 +17,22 @@ $(document).ready(function() {
         alert("You're to young, go back to school!");
         }
         else if (age > 65) {
-          $(".skeleton, .matchTitle").show(1000);    
+          $(".skeleton, .matchTitle").show();    
         }
         else if (age >= 18 && age < 25 || wyr === "jumping") {
-          $(".barney, .matchTitle").show(500);
+          $(".barney, .matchTitle").show();
         }  
         else if (color === "Black" && wyr === "savingPeople") {
-          $(".batman, .matchTitle").show(500);
+          $(".batman, .matchTitle").show();
         } 
         else if (color === "Black" && wyr === "gardening") {
-          $(".edward, .matchTitle").show(500);
+          $(".edward, .matchTitle").show();
         }
         else if (color === "white" || wyr === "complaining" ) {
-          $(".karen, .matchTitle").show(500); 
+          $(".karen, .matchTitle").show(); 
         }        
         else {
-          $(".batman, .matchTitle").show(500);
+          $(".batman, .matchTitle").show();
         }      
       }
       else {
