@@ -17,7 +17,7 @@ $(document).ready(function() {
       $("#toolBar").fadeIn(3000);
       $(".inputName").text(userName);
       $(".userName").fadeIn(700);
-      window.scroll(0, 800)
+      window.scroll(0, 1000)
 
 
       // y/y/y/y/y
