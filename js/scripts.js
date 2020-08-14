@@ -15,8 +15,8 @@ $(document).ready(function() {
 
     if (true) {
       $(".match").fadeIn(2000);
-      $(".name").fadeIn(2000);
-      $(".userName").text(userName);
+      $(".inputName").text(userName);
+      $(".userName").show();
 
       // y/y/y/y/y
     if (webDev === "yes" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "yes") {
