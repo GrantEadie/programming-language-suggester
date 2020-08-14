@@ -8,6 +8,11 @@
   margin-top: 3rem;
 }
 
+#toolBar {
+  display: none;
+  margin-top: 3rem;
+}
+
 .questions {
   text-align: center;
   padding-top: 5px;
@@ -17,6 +22,10 @@
 .mainHeader{
   text-align: center;
   padding: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
   font-family: 'Lato', sans-serif;
 }
 
@@ -40,11 +49,12 @@ hr.lineStyle {
 
 img {
   background-color: transparent;
+  padding: 10px
 }
 
 .center {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 50px;
+  width: 75%;
 }

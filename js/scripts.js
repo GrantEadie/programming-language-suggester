@@ -6,7 +6,6 @@ $(document).ready(function() {
   $("form#coding").submit(function(event) {
     event.preventDefault();
     const userName = $("input#userName").val();
-    console.log();
     const webDev = $("#webDev").val();
     const hardwareDev = $("#hardwareDev").val();
     const dataSci = $("#dataSci").val();
@@ -15,6 +14,7 @@ $(document).ready(function() {
 
     if (true) {
       $(".match").fadeIn(5000);
+      $("#toolBar").delay(800).fadeIn(5000);
       $(".inputName").text(userName);
       $(".userName").fadeIn(2000);
 
