@@ -3,7 +3,7 @@
 
 // user interface
 $(document).ready(function() {
-  $("form#profileInfo").submit(function(event) {
+  $("form#coding").submit(function(event) {
     event.preventDefault();
     const webDev = $("#webDev").val();
 
