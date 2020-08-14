@@ -38,19 +38,75 @@ $(document).ready(function() {
 
       //  n/y/y/y/y
     } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "yes") {
-      alert("Javascript will be your best bet to start off with. Ruby is the next logical step.");
+      alert("C# is best for you. From there you can easily jump to Python for general work and Swift for Apple");
+      
+      //  n/y/y/y/n
+    } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "no") {
+      alert("Python is easy to learn and versitile. Eventually you'll need to pick up Swift to work with Apple.");
 
-    } else if (webDev === "yes" && hardwareDev === "no" && dataSci === "no") {
-      alert("Ruby, Javascript, or Go");
+      //  n/y/y/n/n
+    } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "yes" && apple === "no" && dif === "no") {
+      alert("Python is easy to learn and versitile.");
     
-    } else if (webDev === "no" && hardwareDev === "no" && dataSci === "yes") {
-      alert("C#, or Python");
+      //  n/y/n/n/n
+    } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "no" && apple === "no" && dif === "no") {
+      alert("Listen, I know it sucks, but you'll have to learn C# if you want to work with hardware. Suck it up, and grind.");
 
-    } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "no") {
-      alert("C#, or Python");
+      //  n/n/y/y/y
+    } else if (webDev === "no" && hardwareDev === "no" && dataSci === "yes" && apple === "yes" && dif === "yes") {
+      alert("It's not very challenging, but Python seems to be the industry standard for data science. However, you should consider learning C# first which will give you a great launching point for Python and Swift (which you'll need for Apple).");
+
+      //  n/n/y/y/n
+    } else if (webDev === "no" && hardwareDev === "no" && dataSci === "yes" && apple === "yes" && dif === "no") {
+      alert("Python and Swift for you my friend.");
+
+      //  n/n/y/n/n
+    } else if (webDev === "no" && hardwareDev === "no" && dataSci === "yes" && apple === "no" && dif === "no") {
+      alert("Python. Without a doubt.");
+
+      //  n/n/n/y/y
+    } else if (webDev === "no" && hardwareDev === "no" && dataSci === "no" && apple === "yes" && dif === "yes") {
+      alert("You'll likely only need Swift. But consider Python and C# to give you a wider understanding.");
+
+      //  n/n/n/y/n
+    } else if (webDev === "no" && hardwareDev === "no" && dataSci === "no" && apple === "yes" && dif === "no") {
+      alert("Swift, that's all you need for now.");
+          
+      //  n/n/n/n/y
+    } else if (webDev === "no" && hardwareDev === "no" && dataSci === "no" && apple === "no" && dif === "yes") {
+      alert("If you have no intention of working in the industry, could be work learning Go and Rust for their interesting properties.");
+    
+      //  y/n/n/n/y
+    } else if (webDev === "yes" && hardwareDev === "no" && dataSci === "no" && apple === "no" && dif === "yes") {
+      alert("Ruby and Java are for you.");
+      
+      //  y/n/n/y/y
+    } else if (webDev === "yes" && hardwareDev === "no" && dataSci === "no" && apple === "yes" && dif === "yes") {
+      alert("Ruby and Java for web development and Swift for iOS.");
+    
+      //  y/n/y/y/y
+    } else if (webDev === "yes" && hardwareDev === "no" && dataSci === "yes" && apple === "yes" && dif === "yes") {
+      alert("Python and Swift. Get to it.");
+
+      //  n/y/n/n/y
+    } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "no" && apple === "no" && dif === "yes") {
+      alert("C# is the best for you.");
+
+      //  n/y/n/y/y
+    } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "no" && apple === "yes" && dif === "yes") {
+      alert("C# for hardware development and Swift for Apple stuff.");
+
+      //  y/y/n/y/y
+    } else if (webDev === "yes" && hardwareDev === "yes" && dataSci === "no" && apple === "yes" && dif === "yes") {
+      alert("Start with Javascript, move to C# and finish up with Ruby. You'll eventually want Python for the versitility and Swift for Apple.");
+
+      //  y/n/y/y/n
+    } else if (webDev === "yes" && hardwareDev === "no" && dataSci === "yes" && apple === "yes" && dif === "no") {
+      alert("You'll absolutely need Python, but consider getting into Ruby for a better understanding of web development.");
 
     } else {
-        alert("You'll have to learn two programs");
+        alert("Alright, that's cool I guess. You don't have to get into coding. Maybe learn French or something?");
       }
+
   });
 });
