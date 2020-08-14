@@ -5,7 +5,7 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
   <title>Code Survey - Grant Eadie</title>
 </head>
 <body>
@@ -14,15 +14,20 @@
       <h1>Code Survey</h1>
       <h3>Find out your coding future with this short survey.</h3>
     </div>    
-    <div class="card" id="ageBox">
+    <div class="card" id="webDevBox">
       <div class="card-body">
         <form id="profileInfo">
           <div class="form-group">
-            <label for="age">Enter your age:</label>
-            <input id="age" type="text">
+            <label for="webDev">Are you planning to work in web development?</label>
+            <select class="form-control" id="webDev">
+              <option>yes</option>
+              <option>no</option>
+            </select>
           </div>
+        </form>
       </div>
     </div>
+
     <div class="card" id="colorBox">
       <div class="card-body">
         <div class="form-group">
@@ -34,6 +39,7 @@
         </div>
       </div>
     </div>
+
     <div class="card" id="wyrBox">
       <div class="card-body">
         <div class="form-group">

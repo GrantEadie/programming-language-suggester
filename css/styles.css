@@ -6,12 +6,13 @@
 .mainHeader{
   text-align: center;
   padding: 30px;
-  font-family: 'Baloo Tamma 2', cursive;
+  font-family: 'Lato', sans-serif;
 }
 #ageBox {
   padding: 10px;
   text-align: center;  
-  font-family: 'Baloo Tamma 2', cursive;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 #colorBox {
   padding: 10px;
@@ -20,15 +21,17 @@
 #wyrBox {
   padding: 10px;
   text-align: center;
-  font-family: 'Baloo Tamma 2', cursive;;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
 }
 #match {
   padding: 10px;
   text-align: center;
-  font-family: 'Baloo Tamma 2', cursive;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
 }
 .matchTitle { 
   padding: 10px;
   text-align: center;  
-  font-family: 'Baloo Tamma 2', cursive;
+  font-family: 'Lato', sans-serif;
 }
