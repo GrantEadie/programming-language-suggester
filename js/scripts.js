@@ -5,19 +5,18 @@
 $(document).ready(function() {
   $("form#coding").submit(function(event) {
     event.preventDefault();
+    const userName = $("input#userName").val();
+    console.log();
     const webDev = $("#webDev").val();
-    console.log(webDev)
     const hardwareDev = $("#hardwareDev").val();
-    console.log(hardwareDev)
     const dataSci = $("#dataSci").val();
-    console.log(dataSci)
     const apple = $("#apple").val();
-    console.log(apple)
     const dif = $("#dif").val();
-    console.log(dif)
 
     if (true) {
       $(".match").fadeIn(2000);
+      $(".name").fadeIn(2000);
+      $(".userName").text(userName);
 
       // y/y/y/y/y
     if (webDev === "yes" && hardwareDev === "yes" && dataSci === "yes" && apple === "yes" && dif === "yes") {

@@ -3,6 +3,11 @@
   margin-top: 3rem;
 }
 
+.name {
+  display: none;
+  margin-top: 3rem;
+}
+
 .questions {
   text-align: center;
   padding-top: 5px;
