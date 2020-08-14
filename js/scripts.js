@@ -104,6 +104,26 @@ $(document).ready(function() {
     } else if (webDev === "yes" && hardwareDev === "no" && dataSci === "yes" && apple === "yes" && dif === "no") {
       alert("You'll absolutely need Python, but consider getting into Ruby for a better understanding of web development.");
 
+      //  y/y/y/n/y
+    } else if (webDev === "yes" && hardwareDev === "yes" && dataSci === "yes" && apple === "no" && dif === "yes") {
+      alert("Javascript first, C#, Ruby, then Python. You got this!");
+
+      //  y/n/n/y/n
+    } else if (webDev === "yes" && hardwareDev === "no" && dataSci === "no" && apple === "yes" && dif === "no") {
+      alert("Javascript and Ruby first, then make the jump to Swift to work with Apple.");
+
+      //  y/n/y/n/n
+    } else if (webDev === "yes" && hardwareDev === "no" && dataSci === "yes" && apple === "no" && dif === "no") {
+      alert("Start with Javascript and move to Python. Consider Ruby to boost your web development skills.");
+
+      //  n/y/n/y/n
+    } else if (webDev === "no" && hardwareDev === "yes" && dataSci === "no" && apple === "yes" && dif === "no") {
+      alert("It won't be easy, but you'll need C# if you want to get into hardware development, but that'll give you a good understanding for Swift (Apple's language). Sorry kiddo.");
+
+      //  y/y/n/n/y
+    } else if (webDev === "yes" && hardwareDev === "yes" && dataSci === "no" && apple === "no" && dif === "yes") {
+      alert("Start with Javascript, move to C# then Ruby and Python. You got this!");
+
     } else {
         alert("Alright, that's cool I guess. You don't have to get into coding. Maybe learn French or something?");
       }
