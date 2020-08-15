@@ -2,9 +2,9 @@
 
 # _Programming Language Suggestor_
 
-#### _{Ask user for name and to answer five questions, then return a calculated answer with their name.}, {Created on 8/14/20, updated on 8/15/20}_
+#### _Ask user for name and to answer five questions, then return a calculated answer with their name., {Created on 8/14/20, updated on 8/15/20}_
 
-#### By _**{List of contributors}**_
+#### By _**Grant Eadie**_
 
 ## Description
 
@@ -20,15 +20,15 @@ _{This application will prompt the user to input their name. Following this text
 
 ## Known Bugs
 
-_{No known bugs.}_
+_No known bugs._
 
 ## Support and contact details
 
-_{Please constact Grant Eadie at grantleadie@gmail.com for any questions.}_
+_Please constact Grant Eadie at grantleadie@gmail.com for any questions._
 
 ## Technologies Used
 
-_{Created in Visual Studio Code using HTML, CSS, and Javascript. Libraries include jQuery and Bootstrap.}_
+_Created in Visual Studio Code using HTML, CSS, and Javascript. Libraries include jQuery and Bootstrap._
 
 ### License
 
