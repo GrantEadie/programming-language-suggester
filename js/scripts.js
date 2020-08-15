@@ -140,6 +140,10 @@ $(document).ready(function() {
     } else if (webDev === "no" && hardwareDev === "no" && dataSci === "yes" && apple === "no" && dif === "yes") {
       $(".matchTitle").text("Great, start with C# and move to Python!");
 
+      //  y/n/y/n/y
+    } else if (webDev === "yes" && hardwareDev === "no" && dataSci === "yes" && apple === "no" && dif === "yes") {
+      $(".matchTitle").text("Javascript and Ruby to start, consider Python later on.");
+
     } else {
       $(".matchTitle").text("Alright, that's cool I guess. You don't have to get into coding. Maybe learn French or something?");
       }
