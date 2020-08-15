@@ -2,7 +2,7 @@
 
 # _Programming Language Suggestor_
 
-#### _Ask user for name and to answer five questions, then return a calculated answer with their name., {Created on 8/14/20, updated on 8/15/20}_
+#### _Ask user for name and to answer five questions, then return a calculated answer with their name., Created on 8/14/20, updated on 8/15/20_
 
 #### By _**Grant Eadie**_
 
